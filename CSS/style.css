@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h4{
+    margin: 0;
+    font-weight: 70;
+    font-family: "Zalando Sans", sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#container{
+    width: 400px;
+    height: 200px;
+    background-image: url(../images/background-image.jpg);
+    background-size: cover;
+    display: flex;
+    filter:drop-shadow(0 0 20px black)
+}
+#picture-panel{
+    width: 140px;
+    /* background-color: blueviolet; */
+
+}
+#info-panel{
+    width:260px;
+    /* background-color: blue; */
+}
+#mugshot{
+    width:100px;
+    height:100px;
+    object-fit: cover;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#text-panel{
+    margin-top:40px;
+    margin-left: 20px;
+}
